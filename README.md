@@ -2,6 +2,7 @@
 
 <div align="center">
 
+[![Release](https://img.shields.io/github/v/release/995william/william-love?color=orange&logo=github)](https://github.com/995william/william-love/releases)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?logo=python&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6.svg?logo=windows&logoColor=white)
 ![Dependencies](https://img.shields.io/badge/Dependencies-Zero%20(Pure%20Native)-success.svg)
@@ -10,7 +11,7 @@
 
 **一款深度融合 macOS Sonoma 设计美学、书法笔画分步手写叙事、全屏硬件级透明烟花与真·横向流光字体的 Windows 告白程序**
 
-[✨ 核心特性](#-核心特性) • [🚀 快速开始](#-快速开始) • [🛠️ 自定义配置](#️-自定义配置指南) • [📦 打包指南](#-打包独立单文件-exe) • [🔒 离线安全](#-离线与隐私保障)
+[✨ 核心特性](#-核心特性) • [📥 极速下载 (Releases)](https://github.com/995william/william-love/releases) • [🚀 快速开始](#-快速开始) • [🛠️ 自定义配置](#️-自定义配置指南) • [🔒 离线安全](#-离线与隐私保障)
 
 <br>
 
@@ -105,8 +106,18 @@ william-love/
 ---
 
 ## 🚀 快速开始
-
-### 方式一：源码直接运行 (推荐调试)
+ 
+### 方式一：下载即开即用的独立单文件 EXE (推荐绝大多数用户)
+ 
+无需安装 Python 或任何依赖环境，直接前往 [GitHub Releases](https://github.com/995william/william-love/releases) 下载最新发行版：
+ 
+- 下载附件中的 **`William-Love-v1.0.0-Windows-x64.exe`**；
+- 在任何 Windows 10 / 11 电脑上双击即可直接全屏运行体验；
+- **急停快捷键**：运行期间任何时刻按下键盘 **`ESC`** 键，看门狗将在毫秒级安全退出并恢复鼠标。
+ 
+---
+ 
+### 方式二：源码直接运行 (开发者调试)
 
 需要 Python 3.8+ 环境（零第三方依赖，纯标准库）：
 
@@ -125,7 +136,7 @@ python main.py --no-lock
 python main.py --no-lock --fast
 ```
 
-### 方式二：双击批处理脚本运行
+### 方式三：双击批处理脚本运行 (Windows 快捷入口)
 
 直接在 Windows 文件资源管理器中双击以下脚本即可：
 - `完整体验-锁定鼠标.bat`：启动全屏分步告白与终章烟花（包含鼠标锁定）；
